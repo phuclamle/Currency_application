@@ -19,15 +19,15 @@ class currency_application : AppCompatActivity() {
 
     private val exchangeRates = listOf(
         ExchangeRate("USD", 1.0),
-        ExchangeRate("EUR", 1.05),
-        ExchangeRate("JPY", 0.0067),
-        ExchangeRate("GBP", 1.3),
-        ExchangeRate("AUD", 0.7),
-        ExchangeRate("CAD", 0.75),
-        ExchangeRate("SGD", 0.74),
-        ExchangeRate("KRW", 0.00077),
-        ExchangeRate("CNY", 0.14),
-        ExchangeRate("VND", 0.00004)
+        ExchangeRate("EUR", 0.94),
+        ExchangeRate("JPY", 155.0),
+        ExchangeRate("GBP", 0.81),
+        ExchangeRate("AUD", 1.53),
+        ExchangeRate("CAD", 1.36),
+        ExchangeRate("SGD", 1.35),
+        ExchangeRate("KRW", 1370.0),
+        ExchangeRate("CNY", 7.24),
+        ExchangeRate("VND", 25000.0)
     )
 
     private var isSourceInput = true
